@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Contato/Localização</title>
+</head>
+<body>
+
+    <div class="principal">
+
+        <div class="cabecalho">
+
+            <img src="logoContato.png" alt="logoContato">
+            <h1>Contato e Localização</h1>
+            <hr>
+
+        </div>
+
+        <div class="corpo">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110663.28945274591!2d-51.260197370201226!3d-29.91534353528881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951970087c0ae1e7%3A0xaeee7ae21fb70220!2sCanoas%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1708802876758!5m2!1spt-BR!2sbr" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p id="textoContato">Entre em contato conosco pelo e-mail: contato@auladehtml.com.br ou pelo formulário abaixo:</p>
+        
+            <form action="https://webhook.site/" method="POST">
+                
+                <input type="text" id="name" name="name" placeholder="Informe seu nome">
+                <input type="text" id="email" name="email" placeholder="Informe seu e-mail">
+
+                <div id="textAreaMensagem">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite a mensagem"></textarea>    
+                </div>
+                
+                <input type="submit" id="enviar" name="enviar">
+
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
